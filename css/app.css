@@ -1,0 +1,28 @@
+body {
+  background-color: silver;
+  font-style: comic;
+}
+
+#title {
+  text-align: center;
+}
+
+#total {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+div {
+  padding: 40px;
+}
+
+.submit {
+  display: block;
+  margin: auto;
+}
+
+p {
+  padding-top: 40px;
+  text-align: center;
+}
