@@ -8,11 +8,12 @@ $(document).ready(function() {
     event.preventDefault();
     console.log($('#total').val());
 
-    var value = $('#total').val()
+    var value = $('#total').val();
+    var tipAmount = $('#tipPercent option:selected').val();
 
     var tip = value.replace("$", "")
 
-    tip = tip * .2;
+    tip = tip * tipAmount;
 
     $('.calculation').text("The tip is $" + tip.toFixed(2) + ".");
 
